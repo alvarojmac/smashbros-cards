@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash Bros Cards</title>
+
+    <link rel="shortcut icon" href="src/imagens/smash-logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/smash-logo.png" alt="smash bros logo" class="logo">
+        <h1 class="titulo">Smash Bros Cards</h1>
+    </header>
+
+    <main class="lutador-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-lutadores">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Mario</h2>
+                    <p class="vida">HP 400</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mario.png" alt="Mario" class="imagem-lutador">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mario é um herói encanador italiano que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach, do vilão Bowser.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Sonic</h2>
+                    <p class="vida">HP 500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/sonic.png" alt="Sonic" class="imagem-lutador">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sonic é um ouriço azul, capaz de correr em velocidade imensurável e se enrolar como uma bola, para atacar inimigos. Tem como objetivo principal salvar o multiverso do vilão Dr. Eggman. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Link</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/link.png" alt="Link" class="imagem-lutador">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Link é um herói convocado por Impa, a babá real, para salvar a Princesa Zelda do maligno Príncipe das Trevas, Gannon, que está buscando os fragmentos da Triforce da Sabedoria.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
